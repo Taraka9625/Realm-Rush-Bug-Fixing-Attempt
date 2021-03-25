@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8432807972252937959}
   m_Layer: 0
   m_Name: Tile Road Corner 3
-  m_TagString: Untagged
+  m_TagString: Path
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,6 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda15f64ed4893948a31f3b397582bbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  towerPrefab: {fileID: 0}
+  isPlaceable: 0
 --- !u!1 &6781230170641618949
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,6 +230,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a611f8c536511546b18c4186b437d4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
 --- !u!1001 &8883602379762485473
 PrefabInstance:
   m_ObjectHideFlags: 0

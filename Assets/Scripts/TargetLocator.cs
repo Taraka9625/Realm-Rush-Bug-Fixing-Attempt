@@ -22,5 +22,9 @@ public class TargetLocator : MonoBehaviour
     void AimWeapon()
     {
         weapon.LookAt(target);
+        if (!target)
+        {
+            target = FindObjectOfType<EnemyMover>().transform;
+        }
     }
 }
