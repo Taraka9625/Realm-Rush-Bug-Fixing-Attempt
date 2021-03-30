@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 2920129997958770951}
   m_Layer: 0
   m_Name: Ram
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -161,7 +161,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1525b47d685c6b34ea943d7bf36c6c7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHitPoints: 2
+  maxHitPoints: 1
+  difficultyRamp: 1
 --- !u!114 &2920129997958770951
 MonoBehaviour:
   m_ObjectHideFlags: 0

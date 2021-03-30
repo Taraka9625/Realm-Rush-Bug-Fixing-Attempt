@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Enemy))]
 public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] [Range (1, 5)] int maxHitPoints = 5;
+    [SerializeField] int difficultyRamp = 1;
+
+
     int currentHitPoints = 0;
 
     Enemy enemy;
@@ -31,6 +35,7 @@ public class EnemyHealth : MonoBehaviour
         {
             enemy.RewardGold();
             gameObject.SetActive(false);
+            maxHitPoints += difficultyRamp;
         }
     }
 }
