@@ -216,6 +216,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &4491443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -364,6 +366,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &25404880
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -448,6 +452,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &39724623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -679,6 +685,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &46065984 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -854,6 +862,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &75625814 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -878,6 +888,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &81970172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -971,6 +983,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &90781473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1265,6 +1279,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &125049595 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -1294,6 +1310,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &133304580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1765,6 +1783,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &180826842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2123,6 +2143,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &189013203 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: 5400e3f17514e8f40b9689e0cca12734, type: 3}
@@ -2152,6 +2174,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &205532925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2240,6 +2264,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &208569772 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -2259,6 +2285,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &213083404 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -2422,6 +2450,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &225507637 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -2481,6 +2511,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &259135924 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -2895,6 +2927,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &316448021 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -2914,6 +2948,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &318096338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3007,6 +3043,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &327141621 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -3026,6 +3064,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &341437936 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: 5400e3f17514e8f40b9689e0cca12734, type: 3}
@@ -3117,6 +3157,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &360046581 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -3136,6 +3178,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &360288800 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7071964383073649324, guid: be3e859d916267f489f694bfa840a7b3, type: 3}
@@ -3180,6 +3224,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &371565254 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5672325927823913723, guid: b3ab4e8e7cefd9541a2ca1eb36e56534, type: 3}
@@ -3261,6 +3307,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &397807741 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -3280,6 +3328,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &399638888 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -3299,6 +3349,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &401990657 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -3318,6 +3370,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &403583154 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -3411,6 +3465,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &411769290 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -3440,6 +3496,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &423878830 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -3721,6 +3779,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &490179454 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -3740,6 +3800,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &494955420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4348,6 +4410,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &563025286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4551,6 +4615,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &581500515 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: 2db76531cf951fd48a45e2f44530dd59, type: 3}
@@ -5307,6 +5373,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &680568529 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -5474,6 +5542,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &700876016 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -5493,6 +5563,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &701517126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6515,6 +6587,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &779158654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6729,6 +6803,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &820520234 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: ed9fa84c31810a544912c341f705ff99, type: 3}
@@ -6753,6 +6829,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &836147900 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -6772,6 +6850,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &838906531
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6934,6 +7014,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &842167825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7156,6 +7238,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &852820702 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -7175,6 +7259,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &859343090
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7392,6 +7478,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4990206744999672810, guid: 7f7ab251192cf3c4daa485590b0da789, type: 3}
   m_PrefabInstance: {fileID: 4491443}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &883218947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1407752055613516833, guid: f7d07fe663722c74e993391eb1083fd3, type: 3}
+  m_PrefabInstance: {fileID: 1407752056275866790}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &883218950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883218947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c490b621a3df14c83b2830593de352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSearchNode:
+    coordinates: {x: 2, y: 1}
+    isWalkable: 0
+    isExplored: 0
+    isPath: 0
 --- !u!1001 &886437820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7815,6 +7923,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &944356822 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -7839,6 +7949,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &950405751 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7071964383073649324, guid: be3e859d916267f489f694bfa840a7b3, type: 3}
@@ -8280,6 +8392,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &983772692
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8356,6 +8470,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1000177785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8444,6 +8560,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1005295307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8537,6 +8655,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1026141580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8625,6 +8745,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1035614839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8798,6 +8920,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1050550646
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8920,6 +9044,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1051138758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8934,6 +9060,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1051138759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9096,6 +9224,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1063685174 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -9115,6 +9245,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1070497480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9403,6 +9535,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1085560321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9797,6 +9931,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1119224010 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -9821,6 +9957,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1123164514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10020,6 +10158,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1141280959 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -10049,6 +10189,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1150484072 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: 5400e3f17514e8f40b9689e0cca12734, type: 3}
@@ -10419,6 +10561,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1209035228 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -10438,6 +10582,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1216712722 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -10457,6 +10603,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1218530879 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -10476,6 +10624,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1227287150
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10698,6 +10848,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1252390762 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -10717,6 +10869,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1254846527 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: 1f222fe9781e28a4dbe60ddae8913ce7, type: 3}
@@ -11025,6 +11179,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1285640409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11147,6 +11303,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1288534292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11161,6 +11319,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1288534293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11426,6 +11586,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1307865419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11440,6 +11602,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1307865420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11657,6 +11821,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1323988368 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -11676,6 +11842,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1334391542 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -11838,6 +12006,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1351967135 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -11857,6 +12027,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1360036698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12190,6 +12362,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1383659106
 GameObject:
   m_ObjectHideFlags: 0
@@ -12243,6 +12417,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1383659109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12257,6 +12433,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1383659110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12409,6 +12587,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1390755304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12628,6 +12808,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1407744804 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -12731,6 +12913,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1429065108 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -12824,6 +13008,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1436456233 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -13012,6 +13198,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1474921049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13226,6 +13414,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1488971884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13959,6 +14149,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1560574665 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -13978,6 +14170,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1563238527 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 123207630690511875, guid: e087f990d0ffa4f4c9f7dcf9b9f96eae, type: 3}
@@ -14002,6 +14196,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1567545765
 GameObject:
   m_ObjectHideFlags: 0
@@ -14055,6 +14251,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1567545768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14069,6 +14267,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1567545769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14221,6 +14421,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1572045277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14381,6 +14583,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1583786812 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -14690,6 +14894,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1625224876 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -14709,6 +14915,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1626700168 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -14733,6 +14941,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1627241907 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 123207630690511875, guid: e087f990d0ffa4f4c9f7dcf9b9f96eae, type: 3}
@@ -14826,6 +15036,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1630327295 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -14845,6 +15057,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1633963311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14921,6 +15135,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1638262082 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -14940,6 +15156,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1639283548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15028,6 +15246,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1643561110 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7071964383073649324, guid: be3e859d916267f489f694bfa840a7b3, type: 3}
@@ -15121,6 +15341,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1661581441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15562,6 +15784,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1679917383 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -15581,6 +15805,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1685874534 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -15600,6 +15826,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1688747319 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -15619,6 +15847,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1697332274 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -15638,6 +15868,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1698207924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15796,6 +16028,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1714638467 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -15859,6 +16093,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1720448887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15873,6 +16109,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1720448888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16082,6 +16320,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1727839008 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -16249,6 +16489,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1740689202 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -16335,6 +16577,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1751977007 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6491073242080298264, guid: 09b5f3214c0f1ac4a98d9eb6975d5c50, type: 3}
@@ -16359,6 +16603,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1761810866
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16794,6 +17040,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1776803653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16808,6 +17056,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1776803654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16960,6 +17210,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1786281152
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17040,6 +17292,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1790755847
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17128,6 +17382,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1797879778 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -17147,6 +17403,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1801836548 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -17365,6 +17623,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1833147055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17379,6 +17639,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1833147056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17736,6 +17998,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1885738912 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -17755,6 +18019,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1888799525 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -17794,6 +18060,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1899134655 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -17813,6 +18081,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1903086725 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7071964383073649324, guid: be3e859d916267f489f694bfa840a7b3, type: 3}
@@ -17906,6 +18176,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1917225215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17994,6 +18266,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1928552303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18082,6 +18356,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &1946856101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18245,6 +18521,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1968442660 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -18264,6 +18542,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1970383076 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -18283,6 +18563,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &1975284920 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -18302,6 +18584,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &1985158389 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -18906,6 +19190,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &2045378722 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -18930,6 +19216,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &2050386395 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5672325927823913723, guid: b3ab4e8e7cefd9541a2ca1eb36e56534, type: 3}
@@ -19346,6 +19634,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &2077269433 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -19500,6 +19790,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &2084534447 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -19519,6 +19811,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1001 &2096409717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19755,6 +20049,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &2128736702 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6781230170641618949, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -19774,6 +20070,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!4 &2134638290 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781230170014265976, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -19832,6 +20130,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &2138069767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19846,6 +20146,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  exploredColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &2138069768
 MonoBehaviour:
   m_ObjectHideFlags: 0
