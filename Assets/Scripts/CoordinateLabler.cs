@@ -13,7 +13,7 @@ public class CoordinateLabler : MonoBehaviour
 
     TextMeshPro label;
     Vector2Int coordinates;
-    Waypoint waypoint;
+    Tile tile;
 
     GridManager gridManager;
 
@@ -22,7 +22,7 @@ public class CoordinateLabler : MonoBehaviour
         gridManager = FindObjectOfType<GridManager>();
         label = GetComponent<TextMeshPro>();
         label.enabled = false;
-        waypoint = GetComponentInParent<Waypoint>();
+        tile = GetComponentInParent<Tile>();
         DisplayCoordinates();
     }
     void Update()
@@ -71,6 +71,8 @@ public class CoordinateLabler : MonoBehaviour
 
     void DisplayCoordinates()
     {
+        if(gridManager == null) { return; }
+
         coordinates.x = Mathf.RoundToInt(transform.parent.position.x / UnityEditor.EditorSnapSettings.move.x);
         coordinates.y = Mathf.RoundToInt(transform.parent.position.z / UnityEditor.EditorSnapSettings.move.z);
 

@@ -431,6 +431,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6781230170641618948, guid: ed9fa84c31810a544912c341f705ff99, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed9fa84c31810a544912c341f705ff99, type: 3}
 --- !u!1 &30579933 stripped
@@ -594,6 +598,10 @@ PrefabInstance:
     - target: {fileID: 6781230170641618947, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
       propertyPath: m_fontSizeBase
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6781230170641618948, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d214f2bbb1601504297a29f2d9632b78, type: 3}
@@ -7495,11 +7503,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c490b621a3df14c83b2830593de352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentSearchNode:
-    coordinates: {x: 2, y: 1}
-    isWalkable: 0
-    isExplored: 0
-    isPath: 0
+  startCoordinates: {x: 0, y: 0}
+  destinateCoordinates: {x: 0, y: 0}
 --- !u!1001 &886437820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16700,6 +16705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gridSize: {x: 4, y: 3}
+  unityGridSize: 10
 --- !u!4 &1768355177
 Transform:
   m_ObjectHideFlags: 0
