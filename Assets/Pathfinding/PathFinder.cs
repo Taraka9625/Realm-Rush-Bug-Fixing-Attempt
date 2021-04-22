@@ -16,7 +16,7 @@ public class PathFinder : MonoBehaviour
     Node currentSearchNode;
 
     Queue<Node> frontier = new Queue<Node>();
-    Dictionary<Vector2Int, Node> reached;
+    Dictionary<Vector2Int, Node> reached = new Dictionary<Vector2Int, Node>();
 
     Vector2Int[] directions = { Vector2Int.right, Vector2Int.left, Vector2Int.up, Vector2Int.down };
     GridManager gridManager;
@@ -29,13 +29,14 @@ public class PathFinder : MonoBehaviour
             grid = gridManager.Grid;
             startNode = grid[startCoordinates];
             destinationNode = grid[destinationCoordinates];
+            startNode.isWalkable = true;
+            destinationNode.isWalkable = true;
         }
 
         
     }
     void Start()
     {
-
         GetNewPath();
     }
 
@@ -72,8 +73,6 @@ public class PathFinder : MonoBehaviour
 
     void BreadthFirstSearch()
     {
-        startNode.isWalkable = true;
-        destinationNode.isWalkable = true;
 
         frontier.Clear();
         reached.Clear();

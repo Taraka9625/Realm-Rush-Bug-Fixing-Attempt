@@ -11,8 +11,8 @@ public class EnemyMover : MonoBehaviour
     [SerializeField][Range(0f, 5f)] float speed = 1f;
 
     Enemy enemy;
-    PathFinder pathFinder;
     GridManager gridManager;
+    PathFinder pathFinder;
     // Start is called before the first frame update
     void OnEnable()
     {
@@ -21,7 +21,7 @@ public class EnemyMover : MonoBehaviour
         StartCoroutine(FollowPath());
     }
 
-    void Start()
+    void Awake()
     {
         enemy = GetComponent<Enemy>();
         pathFinder = GetComponent<PathFinder>();
@@ -31,7 +31,6 @@ public class EnemyMover : MonoBehaviour
     void FindPath()
     {
         path.Clear();
-
         path = pathFinder.GetNewPath();
     }
     void ReturnToStart()

@@ -7,6 +7,7 @@ public class GridManager : MonoBehaviour
     [SerializeField] Vector2Int gridSize;
     Dictionary<Vector2Int, Node> grid = new Dictionary<Vector2Int, Node>();
     [SerializeField] int unityGridSize = 10;
+    public int UnityGridSize { get { return unityGridSize; } }
     public Dictionary<Vector2Int, Node> Grid { get { return grid; } }
          
     void Awake()
@@ -54,8 +55,8 @@ public class GridManager : MonoBehaviour
     public Vector3 GetPositionFromCoordinates(Vector2Int coordinates)
     {
         Vector3 position = new Vector3();
-        position.x = Mathf.RoundToInt(coordinates.x / unityGridSize);
-        position.z = Mathf.RoundToInt(coordinates.y / unityGridSize);
+        position.x = Mathf.RoundToInt(coordinates.x * unityGridSize);
+        position.z = Mathf.RoundToInt(coordinates.y * unityGridSize);
 
         return position;
     }
