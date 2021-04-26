@@ -33,7 +33,6 @@ public class PathFinder : MonoBehaviour
             destinationNode.isWalkable = true;
         }
 
-        
     }
     void Start()
     {
