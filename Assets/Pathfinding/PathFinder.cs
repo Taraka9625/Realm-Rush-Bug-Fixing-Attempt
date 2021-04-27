@@ -55,6 +55,7 @@ public class PathFinder : MonoBehaviour
             Vector2Int neighborCoords = currentSearchNode.coordinates + direction;
             if (grid.ContainsKey(neighborCoords))
             {
+                
                 neighbors.Add(grid[neighborCoords]);
             }
         }
@@ -109,7 +110,7 @@ public class PathFinder : MonoBehaviour
         }
 
         path.Reverse();
-
+        
         return path;
     }
 
