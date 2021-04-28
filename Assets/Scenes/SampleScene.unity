@@ -6381,8 +6381,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c490b621a3df14c83b2830593de352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startCoordinates: {x: 1, y: 0}
-  destinationCoordinates: {x: 8, y: 3}
+  startCoordinates: {x: 0, y: 0}
+  destinationCoordinates: {x: 9, y: 4}
 --- !u!1001 &891409240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15310,7 +15310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1407752055613516846, guid: f7d07fe663722c74e993391eb1083fd3, type: 3}
       propertyPath: poolSize
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1407752055613516846, guid: f7d07fe663722c74e993391eb1083fd3, type: 3}
       propertyPath: spawnTimer

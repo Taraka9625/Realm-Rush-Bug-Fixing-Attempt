@@ -24,13 +24,15 @@ public class EnemyMover : MonoBehaviour
     void Awake()
     {
         enemy = GetComponent<Enemy>();
-        pathFinder = GetComponent<PathFinder>();
         gridManager = GetComponent<GridManager>();
+        pathFinder = GetComponent<PathFinder>();
+        
     }
 
     void FindPath()
     {
         path.Clear();
+
         path = pathFinder.GetNewPath();
     }
     void ReturnToStart()
@@ -61,6 +63,7 @@ public class EnemyMover : MonoBehaviour
                 yield return new WaitForEndOfFrame();
             }
         }
+
         FinishPath();
     }
 }
