@@ -12,7 +12,7 @@ public class EnemyMover : MonoBehaviour
 
     Enemy enemy;
     GridManager gridManager;
-    PathFinder pathFinder;
+    Pathfinder pathfinder;
     // Start is called before the first frame update
     void OnEnable()
     {
@@ -25,7 +25,7 @@ public class EnemyMover : MonoBehaviour
     {
         enemy = GetComponent<Enemy>();
         gridManager = GetComponent<GridManager>();
-        pathFinder = GetComponent<PathFinder>();
+        pathfinder = GetComponent<Pathfinder>();
         
     }
 
@@ -33,11 +33,11 @@ public class EnemyMover : MonoBehaviour
     {
         path.Clear();
 
-        path = pathFinder.GetNewPath();
+        path = pathfinder.GetNewPath();
     }
     void ReturnToStart()
     {
-        transform.position = gridManager.GetPositionFromCoordinates(pathFinder.StartCoordinates);
+        transform.position = gridManager.GetPositionFromCoordinates(pathfinder.StartCoordinates);
     }
 
     void FinishPath()

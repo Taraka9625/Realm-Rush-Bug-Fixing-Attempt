@@ -17,3 +17,4 @@ public class Node
         this.isWalkable = isWalkable;
     }
 }
+

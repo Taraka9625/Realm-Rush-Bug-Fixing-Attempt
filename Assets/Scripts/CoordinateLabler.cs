@@ -13,7 +13,6 @@ public class CoordinateLabler : MonoBehaviour
 
     TextMeshPro label;
     Vector2Int coordinates;
-    Tile tile;
 
     GridManager gridManager;
 
@@ -22,7 +21,7 @@ public class CoordinateLabler : MonoBehaviour
         gridManager = FindObjectOfType<GridManager>();
         label = GetComponent<TextMeshPro>();
         label.enabled = false;
-        tile = GetComponentInParent<Tile>();
+
         DisplayCoordinates();
     }
     void Update()
@@ -36,6 +35,15 @@ public class CoordinateLabler : MonoBehaviour
         SetLabelColor();
         ToggleLabels();
     }
+
+    void ToggleLabels()
+    {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            label.enabled = !label.IsActive();
+        }
+    }
+
     void SetLabelColor()
     {
         if (gridManager == null) { return; }
@@ -59,13 +67,6 @@ public class CoordinateLabler : MonoBehaviour
         else
         {
             label.color = defaultColor;
-        }
-    }
-    void ToggleLabels()
-    {
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            label.enabled = !label.IsActive();
         }
     }
 

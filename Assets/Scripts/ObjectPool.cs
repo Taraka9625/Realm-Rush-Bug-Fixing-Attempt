@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjectPool : MonoBehaviour
 {
-    [SerializeField] GameObject firstEnemy;
+    [SerializeField] GameObject enemyPrefab;
     [SerializeField] [Range(0, 50)] int poolSize = 5;
     [SerializeField] [Range(0.1f, 30f)] float spawnTimer = 1f;
 
@@ -17,16 +17,16 @@ public class ObjectPool : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(SummonMook());
+        StartCoroutine(SpawnEnemy());
     }
 
     void PopulatePool()
     {
         pool = new GameObject[poolSize];
 
-        for(int i = 0; i < pool.Length; i++)
+        for (int i = 0; i < pool.Length; i++)
         {
-            pool[i] = Instantiate(firstEnemy, transform);
+            pool[i] = Instantiate(enemyPrefab, transform);
             pool[i].SetActive(false);
         }
     }
@@ -43,12 +43,12 @@ public class ObjectPool : MonoBehaviour
         }
     }
 
-    IEnumerator SummonMook()
+    IEnumerator SpawnEnemy()
     {
-        while(true)
+        while (true)
         {
             EnableObjectInPool();
-                yield return new WaitForSeconds(spawnTimer);
+            yield return new WaitForSeconds(spawnTimer);
         }
     }
 }

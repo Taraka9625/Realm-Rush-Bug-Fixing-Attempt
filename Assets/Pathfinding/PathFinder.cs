@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PathFinder : MonoBehaviour
+public class Pathfinder : MonoBehaviour
 {
 
     [SerializeField] Vector2Int startCoordinates;
@@ -48,19 +48,19 @@ public class PathFinder : MonoBehaviour
     {
         List<Node> neighbors = new List<Node>();
 
-        foreach(Vector2Int direction in directions)
+        foreach (Vector2Int direction in directions)
         {
             Vector2Int neighborCoords = currentSearchNode.coordinates + direction;
+
             if (grid.ContainsKey(neighborCoords))
             {
-                
                 neighbors.Add(grid[neighborCoords]);
             }
         }
 
         foreach (Node neighbor in neighbors)
         {
-            if(!reached.ContainsKey(neighbor.coordinates) && neighbor.isWalkable)
+            if (!reached.ContainsKey(neighbor.coordinates) && neighbor.isWalkable)
             {
                 neighbor.connectedTo = currentSearchNode;
                 reached.Add(neighbor.coordinates, neighbor);
@@ -68,6 +68,8 @@ public class PathFinder : MonoBehaviour
             }
         }
     }
+
+
 
     void BreadthFirstSearch()
     {
@@ -94,6 +96,7 @@ public class PathFinder : MonoBehaviour
         }
     }
 
+
     List<Node> BuildPath()
     {
         List<Node> path = new List<Node>();
@@ -107,10 +110,11 @@ public class PathFinder : MonoBehaviour
             currentNode = currentNode.connectedTo;
             path.Add(currentNode);
             currentNode.isPath = true;
+            
         }
 
         path.Reverse();
-        
+
         return path;
     }
 
@@ -123,13 +127,15 @@ public class PathFinder : MonoBehaviour
             grid[coordinates].isWalkable = false;
             List<Node> newPath = GetNewPath();
             grid[coordinates].isWalkable = previousState;
-            
-            if(newPath.Count <= 1)
+
+            if (newPath.Count <= 1)
             {
                 GetNewPath();
                 return true;
             }
         }
+
         return false;
     }
 }
+
